@@ -82,6 +82,23 @@ img { max-width: 100%; height: auto; display: block; }
 ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--primary-dark); }
 
+/* ========== Why Choose Us (English only) ========== */
+.why-choose {
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.why-choose .section-header .sub { color: var(--primary); }
+.why-choose .section-header h2 { color: var(--text-primary); }
+
+/* ========== 合规认证区块（中文） ========== */
+.compliance {
+    padding: 100px 0;
+    background: linear-gradient(160deg, #f0f7ff 0%, #e6f4ea 50%, #f0f7ff 100%);
+}
+
+.compliance .section-header .sub { color: var(--accent); }
+
 /* ========== 区块标题 ========== */
 .section-header {
     text-align: center;
