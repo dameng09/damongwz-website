@@ -245,4 +245,4 @@ if ('IntersectionObserver' in window) {
     lazyImages.forEach(img => imageObserver.observe(img));
 }
 
-console.log('Dameng Trading Website - Loaded Successfully');
+console.log('Dameng New Materials Website - Loaded Successfully');
