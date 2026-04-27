@@ -1,0 +1,15 @@
+# robots.txt for Dameng Trading Website
+# https://www.damongwz.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.damongwz.com/sitemap.xml
+
+# Crawl-delay suggestion for polite bots
+Crawl-delay: 10
+
+# Block common bot traps
+Disallow: /api/
+Disallow: /*.json$
